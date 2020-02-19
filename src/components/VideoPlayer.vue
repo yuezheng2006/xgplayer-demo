@@ -30,7 +30,7 @@ export default {
     initPlayer() {
       if (this.config.url) {
         this.player = new Player(this.config);
-        this.$emit("player", this.player);
+        this.$emit("playerInit", this.player);
       }
     }
   },
