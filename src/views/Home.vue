@@ -54,7 +54,7 @@ export default {
     },
     reload(){
       this.player.reload()
-    }
+    },
   }
 };
 </script>
