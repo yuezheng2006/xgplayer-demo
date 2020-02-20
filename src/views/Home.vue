@@ -41,8 +41,11 @@ export default {
       this.player = val;
     },
     switchSrc(url) {
-      this.player.src =
-        "http://static.smartisanos.cn/common/video/video-jgpro.mp4";
+      this.player.src = [
+        "http://cdn.tencent.neigou.com/Public/Home/mobileAsset/images/tencent2018/video5.mp4",
+        "http://static.smartisanos.cn/common/video/video-jgpro.mp4"
+      ][0]
+        
       this.player.play();
     },
     switchPoster(url) {
